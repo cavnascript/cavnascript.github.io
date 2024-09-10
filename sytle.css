@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
 
+/* Apply the animation to an element */
+boby {
+ 
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
 
 header {
     position: fixed;
