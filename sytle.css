@@ -5,7 +5,7 @@
 }
 
 /* Apply the animation to an element */
-row {
+#row {
  
   background-color: red;
   animation-name: example;
