@@ -5,3 +5,17 @@ section {
   min-height: 100vh;
   
 }
+
+.hiden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translate(-100%);
+  transiton: all 1s;
+}
+
+
+.show {
+  opacity: 1;
+  filter: blur(0px);
+  transform: translate(0);
+}
