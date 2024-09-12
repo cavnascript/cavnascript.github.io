@@ -5,12 +5,25 @@ section {
   min-height: 100vh;
   
 }
-
-.hiden {
+@keyframe text {
+ from { 
   opacity: 0;
   filter: blur(5px);
   transform: translate(-100%);
+  transiton: all 1s;}
+  to {
+  opacity: 1;
+  filter: blur(0);
+  transform: translate(0);}
+
+
+};
+.hiden {
+
+  filter: blur(5px);
+  transform: translate(-100%);
   transiton: all 1s;
+  
 }
 
 
