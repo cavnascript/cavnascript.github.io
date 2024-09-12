@@ -11,6 +11,11 @@
 100%{background-color: yellow;}
 }
 
+@animation text{
+ to {
+  scroll: 1 1;
+ }
+}
 /* Apply the animation to an element */
 body {
  
@@ -47,6 +52,7 @@ a:hover {
   margin: 16px;
   padding: 16px;
   width: 700px;
+ scroll: 0 1;
 }
 body{
     background-color: rgb(52, 44, 52);
