@@ -16,6 +16,6 @@ section {
 
 .show {
   opacity: 1;
-  filter: blur(0px);
+  filter: blur(0);
   transform: translate(0);
 }
