@@ -15,10 +15,8 @@
 /* Apply the animation to an element */
 body {
  
-  background-color: red;
-  animation-name: example;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
+  background-color: #0E0E10;
+
 }
 
 header {
@@ -51,4 +49,16 @@ body{
   color: aliceblue;
  margin: 0px;
     padding: 0px;
+}
+h1{
+ position:absolute;
+ top:45;
+  left:0;
+}
+div#coloring{
+ font-size:60px;
+   background-color: red;
+  animation-name: example;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
 }
