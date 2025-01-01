@@ -52,12 +52,12 @@ body{
 }
 h1{
  position:absolute;
- top:100;
+ bottom:100;
   left:0;
 }
 div#coloring{
  font-size:60px;
-   background-color: red;
+   
   animation-name: example;
   animation-duration: 20s;
   animation-iteration-count: infinite;
